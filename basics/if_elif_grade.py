@@ -1,7 +1,3 @@
-# This program reads in
-# a students percentage
-# and prints out the
-# corresponding grade
 
 percentageRaw = float(input("Enter the percentage (-1 to quit): (-1 to quit)"))
 #quit function added to input
@@ -28,4 +24,3 @@ elif percentage < 70: # between 60 and 69
     print ("{} is a Merit2" .format (percentage))
 else:
     print ("{} is a Distinction" .format (percentage))
-
